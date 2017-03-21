@@ -57,7 +57,7 @@ EMAIL_USE_TLS = True
 HAYSTACK_CONNECTIONS = {
     'default':{
         'ENGINE': 'haystack.backends.solr_backend.SolrEngine',
-        'URL': 'http://localhost:8983/solr/#/~cores/blog',
+        'URL': 'http://localhost:8983/solr/blog',
     },
 }
 

@@ -1,0 +1,159 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../blog/mysite/blog/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_comments.py	../blog/mysite/blog/migrations/0002_comments.py	1;"	kind:file	line:1
+0003_auto_20170320_1247.py	../blog/mysite/blog/migrations/0003_auto_20170320_1247.py	1;"	kind:file	line:1
+0004_post_tags.py	../blog/mysite/blog/migrations/0004_post_tags.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../blog/mysite/mysite/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+BASE_DIR	../blog/mysite/mysite/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(__file__))$/;"	kind:variable	line:16
+Comment	../blog/mysite/blog/models.py	/^class Comment(models.Model):$/;"	kind:class	line:44
+CommentAdmin	../blog/mysite/blog/admin.py	/^class CommentAdmin(admin.ModelAdmin):$/;"	kind:class	line:16
+CommentForm	../blog/mysite/blog/forms.py	/^class CommentForm(forms.ModelForm):$/;"	kind:class	line:12
+DATABASES	../blog/mysite/mysite/settings.py	/^DATABASES = {$/;"	kind:variable	line:100
+DEBUG	../blog/mysite/mysite/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+EMAIL_HOST	../blog/mysite/mysite/settings.py	/^EMAIL_HOST = 'smtp.gmail.com'$/;"	kind:variable	line:50
+EMAIL_HOST_PASSWORD	../blog/mysite/mysite/settings.py	/^EMAIL_HOST_PASSWORD = os.environ.get('mypassword')$/;"	kind:variable	line:52
+EMAIL_HOST_USER	../blog/mysite/mysite/settings.py	/^EMAIL_HOST_USER = os.environ.get('myemail')$/;"	kind:variable	line:51
+EMAIL_PORT	../blog/mysite/mysite/settings.py	/^EMAIL_PORT = 587$/;"	kind:variable	line:53
+EMAIL_USE_TLS	../blog/mysite/mysite/settings.py	/^EMAIL_USE_TLS = True$/;"	kind:variable	line:54
+EmailPostForm	../blog/mysite/blog/forms.py	/^class EmailPostForm(forms.Form):$/;"	kind:class	line:5
+HAYSTACK_CONNECTIONS	../blog/mysite/mysite/settings.py	/^HAYSTACK_CONNECTIONS = {$/;"	kind:variable	line:57
+INSTALLED_APPS	../blog/mysite/mysite/settings.py	/^INSTALLED_APPS = ($/;"	kind:variable	line:35
+LANGUAGE_CODE	../blog/mysite/mysite/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:110
+LatestPostFeed	../blog/mysite/blog/feeds.py	/^class LatestPostFeed(Feed):$/;"	kind:class	line:7
+MIDDLEWARE_CLASSES	../blog/mysite/mysite/settings.py	/^MIDDLEWARE_CLASSES = ($/;"	kind:variable	line:65
+Meta	../blog/mysite/blog/forms.py	/^    class Meta:$/;"	kind:class	line:13
+Meta	../blog/mysite/blog/models.py	/^    class Meta:$/;"	kind:class	line:32
+Meta	../blog/mysite/blog/models.py	/^    class Meta:$/;"	kind:class	line:53
+Migration	../blog/mysite/blog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../blog/mysite/blog/migrations/0002_comments.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Migration	../blog/mysite/blog/migrations/0003_auto_20170320_1247.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../blog/mysite/blog/migrations/0004_post_tags.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Post	../blog/mysite/blog/models.py	/^class Post(models.Model):$/;"	kind:class	line:14
+PostAdmin	../blog/mysite/blog/admin.py	/^class PostAdmin(admin.ModelAdmin):$/;"	kind:class	line:5
+PostIndex	../blog/mysite/blog/search_indexes.py	/^class PostIndex(indexes.SearchIndex, indexes.Indexable):$/;"	kind:class	line:5
+PostListView	../blog/mysite/blog/views.py	/^class PostListView(ListView):$/;"	kind:class	line:34
+PostSitemap	../blog/mysite/blog/sitemaps.py	/^class PostSitemap(Sitemap):$/;"	kind:class	line:6
+PublishedManager	../blog/mysite/blog/models.py	/^class PublishedManager(models.Manager):$/;"	kind:class	line:9
+ROOT_URLCONF	../blog/mysite/mysite/settings.py	/^ROOT_URLCONF = 'mysite.urls'$/;"	kind:variable	line:76
+SITE_ID	../blog/mysite/mysite/settings.py	/^SITE_ID = 1$/;"	kind:variable	line:31
+STATIC_URL	../blog/mysite/mysite/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:124
+STATUS_CHOICES	../blog/mysite/blog/models.py	/^    STATUS_CHOICES = ($/;"	kind:variable	line:15
+TEMPLATES	../blog/mysite/mysite/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:78
+TIME_ZONE	../blog/mysite/mysite/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:112
+USE_I18N	../blog/mysite/mysite/settings.py	/^USE_I18N = True$/;"	kind:variable	line:114
+USE_L10N	../blog/mysite/mysite/settings.py	/^USE_L10N = True$/;"	kind:variable	line:116
+USE_TZ	../blog/mysite/mysite/settings.py	/^USE_TZ = True$/;"	kind:variable	line:118
+WSGI_APPLICATION	../blog/mysite/mysite/settings.py	/^WSGI_APPLICATION = 'mysite.wsgi.application'$/;"	kind:variable	line:94
+__init__.py	../blog/mysite/blog/__init__.py	1;"	kind:file	line:1
+__init__.py	../blog/mysite/blog/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../blog/mysite/blog/templatetags/__init__.py	1;"	kind:file	line:1
+__init__.py	../blog/mysite/mysite/__init__.py	1;"	kind:file	line:1
+__str__	../blog/mysite/blog/models.py	/^    def __str__(self):$/;"	kind:member	line:35
+__str__	../blog/mysite/blog/models.py	/^    def __str__(self):$/;"	kind:member	line:56
+active	../blog/mysite/blog/models.py	/^    active = models.BooleanField(default=True)$/;"	kind:variable	line:51
+admin.py	../blog/mysite/blog/admin.py	1;"	kind:file	line:1
+application	../blog/mysite/mysite/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+author	../blog/mysite/blog/models.py	/^    author = models.ForeignKey(User, related_name='blog_posts')$/;"	kind:variable	line:21
+bases	../blog/mysite/blog/migrations/0001_initial.py	/^            bases=(models.Model,),$/;"	kind:variable	line:32
+blog_tags.py	../blog/mysite/blog/templatetags/blog_tags.py	1;"	kind:file	line:1
+body	../blog/mysite/blog/models.py	/^    body = models.TextField()$/;"	kind:variable	line:22
+body	../blog/mysite/blog/models.py	/^    body = models.TextField()$/;"	kind:variable	line:48
+changefreq	../blog/mysite/blog/sitemaps.py	/^    changefreq = 'weekly'$/;"	kind:variable	line:7
+comments	../blog/mysite/blog/forms.py	/^    comments = forms.CharField(required=False, widget=forms.Textarea)$/;"	kind:variable	line:9
+context_object_name	../blog/mysite/blog/views.py	/^    context_object_name = 'posts'$/;"	kind:variable	line:36
+created	../blog/mysite/blog/models.py	/^    created = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:24
+created	../blog/mysite/blog/models.py	/^    created = models.DateTimeField(auto_now_add=True)$/;"	kind:variable	line:49
+date_hierarchy	../blog/mysite/blog/admin.py	/^    date_hierarchy = 'publish'$/;"	kind:variable	line:11
+dependencies	../blog/mysite/blog/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../blog/mysite/blog/migrations/0002_comments.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../blog/mysite/blog/migrations/0003_auto_20170320_1247.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../blog/mysite/blog/migrations/0004_post_tags.py	/^    dependencies = [$/;"	kind:variable	line:11
+description	../blog/mysite/blog/feeds.py	/^    description = "Latest posts of the blog"$/;"	kind:variable	line:10
+email	../blog/mysite/blog/forms.py	/^    email = forms.EmailField()$/;"	kind:variable	line:7
+email	../blog/mysite/blog/models.py	/^    email = models.EmailField()$/;"	kind:variable	line:47
+feeds.py	../blog/mysite/blog/feeds.py	1;"	kind:file	line:1
+field	../blog/mysite/blog/migrations/0004_post_tags.py	/^            field=taggit.managers.TaggableManager(help_text='A comma-separated list of tags.', through='taggit.TaggedItem', to='taggit.Tag', verbose_name='Tags'),$/;"	kind:variable	line:20
+fields	../blog/mysite/blog/forms.py	/^        fields = ('name', 'email', 'body')$/;"	kind:variable	line:15
+fields	../blog/mysite/blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	../blog/mysite/blog/migrations/0002_comments.py	/^            fields=[$/;"	kind:variable	line:18
+forms.py	../blog/mysite/blog/forms.py	1;"	kind:file	line:1
+get_absolute_url	../blog/mysite/blog/models.py	/^    def get_absolute_url(self):$/;"	kind:member	line:38
+get_model	../blog/mysite/blog/search_indexes.py	/^    def get_model(self):$/;"	kind:member	line:9
+get_most_commented_posts	../blog/mysite/blog/templatetags/blog_tags.py	/^def get_most_commented_posts(count=5):$/;"	kind:function	line:21
+get_queryset	../blog/mysite/blog/models.py	/^    def get_queryset(self):$/;"	kind:member	line:10
+item_description	../blog/mysite/blog/feeds.py	/^    def item_description(self, item):$/;"	kind:member	line:18
+item_title	../blog/mysite/blog/feeds.py	/^    def item_title(self, item):$/;"	kind:member	line:15
+items	../blog/mysite/blog/feeds.py	/^    def items(self):$/;"	kind:member	line:12
+items	../blog/mysite/blog/sitemaps.py	/^    def items(self):$/;"	kind:member	line:10
+lastmod	../blog/mysite/blog/sitemaps.py	/^    def lastmod(self, obj):$/;"	kind:member	line:13
+link	../blog/mysite/blog/feeds.py	/^    link = "\/blog\/"$/;"	kind:variable	line:9
+list_display	../blog/mysite/blog/admin.py	/^    list_display = ('name', 'email', 'post', 'created', 'active')$/;"	kind:variable	line:17
+list_display	../blog/mysite/blog/admin.py	/^    list_display = ('title', 'slug', 'author', 'publish', 'status')$/;"	kind:variable	line:6
+list_filter	../blog/mysite/blog/admin.py	/^    list_filter = ('active', 'created', 'updated')$/;"	kind:variable	line:18
+list_filter	../blog/mysite/blog/admin.py	/^    list_filter = ('status', 'created', 'publish', 'author')$/;"	kind:variable	line:7
+manage.py	../blog/mysite/manage.py	1;"	kind:file	line:1
+markdown_format	../blog/mysite/blog/templatetags/blog_tags.py	/^def markdown_format(text):$/;"	kind:function	line:26
+model	../blog/mysite/blog/forms.py	/^        model = Comment$/;"	kind:variable	line:14
+model_name	../blog/mysite/blog/migrations/0004_post_tags.py	/^            model_name='post',$/;"	kind:variable	line:18
+models.py	../blog/mysite/blog/models.py	1;"	kind:file	line:1
+name	../blog/mysite/blog/forms.py	/^    name = forms.CharField(max_length=25)$/;"	kind:variable	line:6
+name	../blog/mysite/blog/migrations/0001_initial.py	/^            name='Post',$/;"	kind:variable	line:17
+name	../blog/mysite/blog/migrations/0002_comments.py	/^            name='Comments',$/;"	kind:variable	line:17
+name	../blog/mysite/blog/migrations/0004_post_tags.py	/^            name='tags',$/;"	kind:variable	line:19
+name	../blog/mysite/blog/models.py	/^    name = models.CharField(max_length=80)$/;"	kind:variable	line:46
+name	../blog/mysite/blog/urls.py	/^        name='post_detail'),$/;"	kind:variable	line:14
+new_name	../blog/mysite/blog/migrations/0003_auto_20170320_1247.py	/^            new_name='Comment',$/;"	kind:variable	line:17
+objects	../blog/mysite/blog/models.py	/^    objects = models.Manager() # The default manager.$/;"	kind:variable	line:28
+old_name	../blog/mysite/blog/migrations/0003_auto_20170320_1247.py	/^            old_name='Comments',$/;"	kind:variable	line:16
+operations	../blog/mysite/blog/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../blog/mysite/blog/migrations/0002_comments.py	/^    operations = [$/;"	kind:variable	line:15
+operations	../blog/mysite/blog/migrations/0003_auto_20170320_1247.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../blog/mysite/blog/migrations/0004_post_tags.py	/^    operations = [$/;"	kind:variable	line:16
+options	../blog/mysite/blog/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:29
+options	../blog/mysite/blog/migrations/0002_comments.py	/^            options={$/;"	kind:variable	line:28
+ordering	../blog/mysite/blog/admin.py	/^    ordering = ['status', 'publish']$/;"	kind:variable	line:12
+ordering	../blog/mysite/blog/models.py	/^        ordering = ('-publish',)$/;"	kind:variable	line:33
+ordering	../blog/mysite/blog/models.py	/^        ordering = ('created',)$/;"	kind:variable	line:54
+paginate_by	../blog/mysite/blog/views.py	/^    paginate_by = 3$/;"	kind:variable	line:37
+post	../blog/mysite/blog/models.py	/^    post = models.ForeignKey(Post, related_name='comments')$/;"	kind:variable	line:45
+post_detail	../blog/mysite/blog/views.py	/^def post_detail(request, year, month, day, post):$/;"	kind:function	line:41
+post_list	../blog/mysite/blog/views.py	/^def post_list(request, category=None, tag_slug=None):$/;"	kind:function	line:13
+post_share	../blog/mysite/blog/views.py	/^def post_share(request, post_id):$/;"	kind:function	line:71
+prepopulated_fields	../blog/mysite/blog/admin.py	/^    prepopulated_fields = {'slug': ('title',)}$/;"	kind:variable	line:9
+priority	../blog/mysite/blog/sitemaps.py	/^    priority = 0.9$/;"	kind:variable	line:8
+publish	../blog/mysite/blog/models.py	/^    publish = models.DateTimeField(default=timezone.now)$/;"	kind:variable	line:23
+publish	../blog/mysite/blog/search_indexes.py	/^    publish = indexes.DateTimeField(model_attr='publish')$/;"	kind:variable	line:7
+published	../blog/mysite/blog/models.py	/^    published = PublishedManager() # The Dahl-specific manager.$/;"	kind:variable	line:29
+queryset	../blog/mysite/blog/views.py	/^    queryset = Post.published.all()$/;"	kind:variable	line:35
+raw_id_fields	../blog/mysite/blog/admin.py	/^    raw_id_fields = ('author',)$/;"	kind:variable	line:10
+register	../blog/mysite/blog/templatetags/blog_tags.py	/^register = template.Library()$/;"	kind:variable	line:8
+search_fields	../blog/mysite/blog/admin.py	/^    search_fields = ('name', 'email', 'body')$/;"	kind:variable	line:19
+search_fields	../blog/mysite/blog/admin.py	/^    search_fields = ('title', 'body')$/;"	kind:variable	line:8
+search_indexes.py	../blog/mysite/blog/search_indexes.py	1;"	kind:file	line:1
+settings.py	../blog/mysite/mysite/settings.py	1;"	kind:file	line:1
+show_latest_posts	../blog/mysite/blog/templatetags/blog_tags.py	/^def show_latest_posts(count=5):$/;"	kind:function	line:16
+sitemaps	../blog/mysite/mysite/urls.py	/^sitemaps = {$/;"	kind:variable	line:7
+sitemaps.py	../blog/mysite/blog/sitemaps.py	1;"	kind:file	line:1
+slug	../blog/mysite/blog/models.py	/^    slug = models.SlugField(max_length=250, unique_for_date='publish')$/;"	kind:variable	line:20
+status	../blog/mysite/blog/models.py	/^    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='draft')$/;"	kind:variable	line:26
+tags	../blog/mysite/blog/models.py	/^    tags = TaggableManager()$/;"	kind:variable	line:30
+template_name	../blog/mysite/blog/views.py	/^    template_name = 'blog\/post\/list.html'$/;"	kind:variable	line:38
+tests.py	../blog/mysite/blog/tests.py	1;"	kind:file	line:1
+text	../blog/mysite/blog/search_indexes.py	/^    text = indexes.CharField(document=True, use_template=True)$/;"	kind:variable	line:6
+title	../blog/mysite/blog/feeds.py	/^    title = "My blog"$/;"	kind:variable	line:8
+title	../blog/mysite/blog/models.py	/^    title = models.CharField(max_length=250)$/;"	kind:variable	line:19
+to	../blog/mysite/blog/forms.py	/^    to = forms.EmailField()$/;"	kind:variable	line:8
+total_posts	../blog/mysite/blog/templatetags/blog_tags.py	/^def total_posts():$/;"	kind:function	line:11
+updated	../blog/mysite/blog/models.py	/^    updated = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:25
+updated	../blog/mysite/blog/models.py	/^    updated = models.DateTimeField(auto_now=True)$/;"	kind:variable	line:50
+urlpatterns	../blog/mysite/blog/urls.py	/^urlpatterns = [$/;"	kind:variable	line:7
+urlpatterns	../blog/mysite/mysite/urls.py	/^urlpatterns = [$/;"	kind:variable	line:11
+urls.py	../blog/mysite/blog/urls.py	1;"	kind:file	line:1
+urls.py	../blog/mysite/mysite/urls.py	1;"	kind:file	line:1
+views.py	../blog/mysite/blog/views.py	1;"	kind:file	line:1
+wsgi.py	../blog/mysite/mysite/wsgi.py	1;"	kind:file	line:1
