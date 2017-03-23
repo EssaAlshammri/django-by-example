@@ -11,7 +11,7 @@ urlpatterns = [
     # url(r'^login/$', views.user_login, name='login'),
 
     url(r'^dashboard/$', views.dashboard, name='dashboard'),
-
+    url(r'^edit/$', views.edit, name='edit'),
     url(r'^register/$', views.register, name='register'),
 
     # login and logout urls
