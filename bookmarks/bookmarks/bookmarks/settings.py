@@ -27,7 +27,7 @@ SECRET_KEY = '3xoo07&$!2limhy)05dw#ausk-r=qgx5rwnfd$001qr7w3o*bn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 LOGIN_REDIRECT_URL = reverse_lazy('dashboard')
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'social_django',
 ]
 
 MIDDLEWARE = [
