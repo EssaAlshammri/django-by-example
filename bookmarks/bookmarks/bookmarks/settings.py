@@ -60,6 +60,7 @@ MIDDLEWARE = [
 ]
 
 AUTHENTICATION_BACKENDS = (
+    'social_core.backends.google.GoogleOAuth2',
     'social_core.backends.facebook.FacebookOAuth2',
     'social_core.backends.twitter.TwitterOAuth',
     'django.contrib.auth.backends.ModelBackend',
@@ -73,6 +74,10 @@ SOCIAL_AUTH_FACEBOOK_SECRET = os.environ.get('facebook_auth_secret')
 # twitetr auth
 SOCIAL_AUTH_TWITTER_KEY = os.environ.get('twitter_auth_key')
 SOCIAL_AUTH_TWITTER_SECRET = os.environ.get('twitter_auth_secret')
+
+# google auth
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = os.environ.get('google_auth_key')
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = os.environ.get('google_auth_secret')
 
 ROOT_URLCONF = 'bookmarks.urls'
 
