@@ -11,3 +11,11 @@ class ImageCreateForm(forms.ModelForm):
         widgets = {
             'url': forms.HiddenInput,
         }
+
+    def clean_url(self):
+        url = self.cleaned_data['url']
+        valid_extensions = ['jpg', 'jpeg']
+        extenstion = url.rsplit('.', 1)[1].lower()
+        if extenstion not in valid_extensions:
+            raise forms.ValidationError('The given URL is not an image')
+        return url
