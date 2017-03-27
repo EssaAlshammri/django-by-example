@@ -21,7 +21,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^account/', include('account.urls')),
-    url(r'^images/', include('images.urls', namespace='images')),
+    url(r'^images/', include('images.urls', namespace='image')),
     url('social-auth/', include('social_django.urls', namespace='social'))
 ]
 
