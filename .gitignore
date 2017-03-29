@@ -24,7 +24,7 @@ var/
 .installed.cfg
 *.egg
 .vscode/
-
+sorl-thumbnail/
 # images uploaded
 bookmarks/bookmarks/media
 
