@@ -36,6 +36,10 @@ LOGOUT_URL = reverse_lazy('login')
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+ABSOLUTE_URL_OVERRIDES = {
+    'auth.user': lambda u: reverse_lazy('user_detail', args=[u.username])
+}
+
 # Application definition
 
 INSTALLED_APPS = [
