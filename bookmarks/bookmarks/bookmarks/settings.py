@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'social_django',
     'images',
     'sorl.thumbnail',
+    'actions',
 ]
 
 MIDDLEWARE = [
