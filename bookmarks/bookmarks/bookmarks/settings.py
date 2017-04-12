@@ -40,6 +40,10 @@ ABSOLUTE_URL_OVERRIDES = {
     'auth.user': lambda u: reverse_lazy('user_detail', args=[u.username])
 }
 
+REDIS_HOST = '172.17.0.2'
+REDIS_PORT = 6379
+REDIS_DB = 0
+
 # Application definition
 
 INSTALLED_APPS = [
