@@ -87,7 +87,6 @@ def image_list(request):
 @login_required
 def image_ranking(request):
     images_ranking = r.zrange('image_ranking', 0, -1, desc=True)[:10]
-    print (images_ranking)
     images_ranking_ids = [int(id) for id in images_ranking]
     most_viewed = list(Image.objects.filter(id__in=images_ranking_ids))
     most_viewed.sort(key=lambda x: images_ranking_ids.index(x.id))
