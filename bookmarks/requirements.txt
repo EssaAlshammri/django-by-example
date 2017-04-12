@@ -2,3 +2,4 @@ Django==1.10.6
 Pillow==4.0.0
 social-auth-app-django==1.1.0
 -e git+https://github.com/mariocesar/sorl-thumbnail.git#egg=sorl-thumbnail
+redis==2.10.5
