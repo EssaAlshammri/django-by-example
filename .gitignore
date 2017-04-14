@@ -27,6 +27,7 @@ var/
 sorl-thumbnail/
 # images uploaded
 bookmarks/bookmarks/media
+online-shop/myshop/media
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
