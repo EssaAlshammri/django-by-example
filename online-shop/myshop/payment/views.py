@@ -29,7 +29,7 @@ def payment_process(request):
 
 @csrf_exempt
 def payment_done(request):
-    return render(request, 'payment/done.hmtl')
+    return render(request, 'payment/done.html')
 
 
 @csrf_exempt
