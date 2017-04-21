@@ -2,3 +2,4 @@ Django==1.10.6
 Pillow==4.0.0
 celery==4.0.2
 django-paypal==0.3.6
+WeasyPrint==0.36
