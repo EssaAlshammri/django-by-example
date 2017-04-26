@@ -48,6 +48,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -110,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'
 
@@ -136,3 +137,12 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 PAYPAL_RECEIVER_EMAIL = os.environ.get('paypalemail')
 PAYPAL_TEST = True
+
+LANGUAGES = (
+    ('en', 'English'),
+    ('ar', 'Arabic'),
+)
+
+LOCALE_PATHS = (
+    os.path.join(BASE_DIR, 'locale/'),
+)
