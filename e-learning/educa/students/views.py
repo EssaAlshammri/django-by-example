@@ -17,7 +17,7 @@ class StudentRegistrationView(CreateView):
     success_url = reverse_lazy('student_course_list')
 
     def form_valid(self, form):
-        result = super(UserCreationForm, self).form_valid(form)
+        result = super(StudentRegistrationView, self).form_valid(form)
         cd = form.cleaned_data
         user = authenticate(username=cd['username'], password=cd['password1'])
         login(self.request, user)
